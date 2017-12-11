@@ -1,0 +1,41 @@
+.seagreen {
+    color: seagreen;
+}
+
+#first_choice_label {
+    background: blue;
+    color: lightblue;
+}
+
+#second_choice_label {
+    background: grey;
+    color: #fff;
+}
+
+#third_choice_label {
+    background: darkred;
+    color: red;
+}
+
+form > fieldset {
+    border: 2px solid red;
+
+}
+
+label{
+    width: 150px;
+    display: block;
+    float: left;
+    text-align:  right;
+    padding-right: 5px;
+}
+
+#submit{
+    border-radius:5px;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+body{
+    width: 500px;
+}

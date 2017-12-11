@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="monCss.css" />
+</head>
+<body>
+<form>
+    <fieldset>
+    <fieldset>
+        <legend>Informations personnelles</legend>
+    <label class="seagreen" for="prenom">Prénom :</label><input id="prenom" type="text" /><br />
+    <label class="seagreen" for="nom">Nom :</label><input id ="nom" type="text" /><br />
+    <label class="seagreen" for="numero">Numéro étudiant :</label><input id="numero" type="text" /><br />
+
+    <label for="app_group">Groupe d'APP</label>
+        <select id="app_group">
+            <option value="G2A" selected="selected">G2A</option>
+            <option value="G2B">G2B</option>
+            <option value="G2C">G2C</option>
+            <option value="G2D">G2D</option>
+        </select><br />
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Parcours envisagés en A2</legend>
+    <label id="first_choice_label" for="first_choice">Premier choix :</label><input type="text" id="first_choice" /><br />
+    <label id="second_choice_label" for="second_choice">Deuxième choix :</label><input type="text" id="second_choice" /><br />
+    <label id="third_choice_label" for="third_choice">Troisième choix :</label><input type="text" id="third_choice" /><br />
+
+    </fieldset>
+        <br />
+    <input type="submit" value="Valider" id="submit"/>
+    </fieldset>
+</form>
+</body>
+</html>
