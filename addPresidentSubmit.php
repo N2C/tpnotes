@@ -14,7 +14,6 @@ foreach($_POST as $key=>$value){
     if(empty($_POST[$key])) die("$key has not been renseigned");
 }
 
-$_POST["password"] = ;
 
 $query = $dbh->prepare("SELECT * FROM utilisateur WHERE password = :password AND login = :login");
 $query->execute(array(
