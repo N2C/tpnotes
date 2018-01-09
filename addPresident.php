@@ -46,8 +46,9 @@ $partis = $query->fetchAll();
 				    <label for="id_parti">parti :</label>
     				<select id="id_parti" name="id_parti">
         				<?php foreach($partis as $parti){
+					$parti_id = $parti["id_parti"];
            				 $parti = $parti["intitule"];
-            			echo("<option value=\"$parti\">$parti</option>");
+            			echo("<option value=\"$parti_id\">$parti</option>");
 						} ?>
 
 					</select>
